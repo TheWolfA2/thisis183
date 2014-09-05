@@ -124,7 +124,7 @@ function loadPage()
             {
                 $(".img-wrapper", this).popover("hide");
             })
-            .click(function()
+            .click(function() // handles the mobile bug
             {
             	$(".img-wrapper", this).popover("toggle");
             });
